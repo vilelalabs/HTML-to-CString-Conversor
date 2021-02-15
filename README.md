@@ -9,6 +9,8 @@ To use , be in the same directory of the .html file and run:
 node  conversor.js filename.html
 ```
 
+**index.html** and **main.cpp** are just example files. 
+
 ### Working example:
 
 The .html file: 
