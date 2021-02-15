@@ -1,3 +1,5 @@
+Project created and updated live at  [Twitch.Tv/HenriqueVilelaMusic](https://twitch.tv/henriquevilelamusic)
+
 # HTML-to-CString-Conversor
 
 The idea of this project is to converts a .html file to a C string variable with line break format as the following examples:
