@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS "dentro" do ESP</title>
+</head>
+
+<body>
+    <h1>Você está conectado do ESP8266</h1>
+    <p id="texto"></p>
+    <div style="background-color: aqua;">
+        <p>.</p>
+        <p>.</p>
+        <button onclick="clique()">APERTE</button>
+        <p>.</p>
+        <p>.</p>
+
+    </div>
+    <script>
+        function clique() {
+            let txt = document.getElementById('texto');
+            txt.innerHTML = 'Botao Pressionado!'
+        }
+    </script>
+</body>
+
+</html>
