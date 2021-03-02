@@ -22,19 +22,19 @@ The .html file:
 <html>
 
 <head>
-    <title>JS "dentro" do ESP</title>
+    <title>JS "inside" do ESP</title>
 </head>
 
 <body>
-    <h1>Você está conectado do ESP8266</h1>
+    <h1>You're connected on ESP8266</h1>
     <p id="texto"></p>
     <div style="background-color: aqua;">
-        <button onclick="clique()">APERTE</button>
+        <button onclick="click()">PRESS</button>
     </div>
     <script>
-        function clique() {
+        function click() {
             let txt = document.getElementById('texto');
-            txt.innerHTML = 'Botao Pressionado!'
+            txt.innerHTML = 'Pressed!'
         }
     </script>
 </body>
@@ -50,24 +50,24 @@ msg+= "<!DOCTYPE html>";
 msg+= "<html>";
 msg+= "";
 msg+= "<head>";
-msg+= "    <title>JS \"dentro\" do ESP</title>";
+msg+= "    <title>JS \"inside\" do ESP</title>";
 msg+= "</head>";
 msg+= "";
 msg+= "<body>";
-msg+= "    <h1>Você está conectado do ESP8266</h1>";
+msg+= "    <h1>You're connected on ESP8266</h1>";
 msg+= "    <p id=\"texto\"></p>";
 msg+= "    <div style=\"background-color: aqua;\">";
 msg+= "        <p>.</p>";
 msg+= "        <p>.</p>";
-msg+= "        <button onclick=\"clique()\">APERTE</button>";
+msg+= "        <button onclick=\"click()\">PRESS</button>";
 msg+= "        <p>.</p>";
 msg+= "        <p>.</p>";
 msg+= "";
 msg+= "    </div>";
 msg+= "    <script>";
-msg+= "        function clique() {";
+msg+= "        function click() {";
 msg+= "            let txt = document.getElementById('texto');";
-msg+= "            txt.innerHTML = 'Botao Pressionado!'";
+msg+= "            txt.innerHTML = 'Pressed!'";
 msg+= "        }";
 msg+= "    </script>";
 msg+= "</body>";
@@ -76,3 +76,5 @@ msg+= "</html>";
 ```
 
 in a **out.txt** file in the same directory
+
+See **Issues** before use.
